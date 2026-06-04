@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: usually you DO track migrations, so DON'T ignore unless you know what you're doing)
+# */migrations/*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# pytest / coverage
+.coverage
+htmlcov/
+
+# Django secret settings (if you use local env files)
+.env
